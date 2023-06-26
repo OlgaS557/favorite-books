@@ -1,0 +1,44 @@
+.book {
+    width: 300px;
+    height: 466px;
+}
+
+/* .productCard {
+    position: relative;
+} */
+
+.card {
+    width: 300px;
+    height: 365px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* cursor: pointer; */
+}
+
+.id {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+.book_name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+.random_button {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.MuiRating-iconFilled {
+    color: yellow !important;
+  }
+  
+  .MuiRating-iconEmpty {
+    color: yellow !important;
+  }

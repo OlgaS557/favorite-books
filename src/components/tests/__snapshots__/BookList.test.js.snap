@@ -1,0 +1,1052 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookList To create BookList with items 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="titlebox"
+        >
+          <div
+            class="titel"
+          >
+            My favorite books
+          </div>
+          <div
+            class="rowButtons"
+          >
+            <div
+              class="MuiBox-root css-1w97hrm"
+            >
+              <div
+                class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+              >
+                <label
+                  class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-1jy569b-MuiFormLabel-root-MuiInputLabel-root"
+                  data-shrink="true"
+                  id="sort-by-label"
+                >
+                  Sort by
+                </label>
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall  css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+                >
+                  <div
+                    aria-expanded="false"
+                    aria-haspopup="listbox"
+                    aria-labelledby="sort-by-label"
+                    class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <span
+                      class="notranslate"
+                    >
+                      ​
+                    </span>
+                  </div>
+                  <input
+                    aria-hidden="true"
+                    aria-invalid="false"
+                    class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                    tabindex="-1"
+                    value="[object Object],[object Object]"
+                  />
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                    data-testid="ArrowDropDownIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 10l5 5 5-5z"
+                    />
+                  </svg>
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-14lo706"
+                    >
+                      <span>
+                        Sort by
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="books"
+        >
+          <div
+            class="book"
+          >
+            <img
+              alt="Book 1"
+              class="card"
+            />
+            <span
+              class="MuiRating-root MuiRating-sizeMedium css-iljtu2-MuiRating-root"
+              type="radio"
+            >
+              <label
+                class="css-dqr9h-MuiRating-label"
+                for=":r1:"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                    data-testid="StarBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  1 Star
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyHidden"
+                id=":r1:"
+                name="simple-controlled"
+                type="radio"
+                value="1"
+              />
+              <label
+                class="css-dqr9h-MuiRating-label"
+                for=":r2:"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                    data-testid="StarBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  2 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyHidden"
+                id=":r2:"
+                name="simple-controlled"
+                type="radio"
+                value="2"
+              />
+              <label
+                class="css-dqr9h-MuiRating-label"
+                for=":r3:"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                    data-testid="StarBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  3 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyHidden"
+                id=":r3:"
+                name="simple-controlled"
+                type="radio"
+                value="3"
+              />
+              <label
+                class="css-dqr9h-MuiRating-label"
+                for=":r4:"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                    data-testid="StarBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  4 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyHidden"
+                id=":r4:"
+                name="simple-controlled"
+                type="radio"
+                value="4"
+              />
+              <label
+                class="css-dqr9h-MuiRating-label"
+                for=":r5:"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                    data-testid="StarBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  5 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyHidden"
+                id=":r5:"
+                name="simple-controlled"
+                type="radio"
+                value="5"
+              />
+              <label
+                class="MuiRating-label MuiRating-pristine css-dqr9h-MuiRating-label"
+              >
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="simple-controlled-empty"
+                  name="simple-controlled"
+                  type="radio"
+                  value=""
+                />
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  Empty
+                </span>
+              </label>
+            </span>
+            <div
+              class="id"
+            >
+              1
+            </div>
+            <div
+              class="book_name"
+            >
+              Book 1
+            </div>
+            <button
+              class="random_button"
+              type="button"
+            >
+              Start Random Rating
+            </button>
+          </div>
+          <div
+            class="book"
+          >
+            <img
+              alt="Book 2"
+              class="card"
+            />
+            <span
+              class="MuiRating-root MuiRating-sizeMedium css-iljtu2-MuiRating-root"
+              type="radio"
+            >
+              <label
+                class="css-dqr9h-MuiRating-label"
+                for=":r7:"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                    data-testid="StarBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  1 Star
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyHidden"
+                id=":r7:"
+                name="simple-controlled"
+                type="radio"
+                value="1"
+              />
+              <label
+                class="css-dqr9h-MuiRating-label"
+                for=":r8:"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                    data-testid="StarBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  2 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyHidden"
+                id=":r8:"
+                name="simple-controlled"
+                type="radio"
+                value="2"
+              />
+              <label
+                class="css-dqr9h-MuiRating-label"
+                for=":r9:"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                    data-testid="StarBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  3 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyHidden"
+                id=":r9:"
+                name="simple-controlled"
+                type="radio"
+                value="3"
+              />
+              <label
+                class="css-dqr9h-MuiRating-label"
+                for=":ra:"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                    data-testid="StarBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  4 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyHidden"
+                id=":ra:"
+                name="simple-controlled"
+                type="radio"
+                value="4"
+              />
+              <label
+                class="css-dqr9h-MuiRating-label"
+                for=":rb:"
+              >
+                <span
+                  class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                    data-testid="StarBorderIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  5 Stars
+                </span>
+              </label>
+              <input
+                class="MuiRating-visuallyHidden"
+                id=":rb:"
+                name="simple-controlled"
+                type="radio"
+                value="5"
+              />
+              <label
+                class="MuiRating-label MuiRating-pristine css-dqr9h-MuiRating-label"
+              >
+                <input
+                  class="MuiRating-visuallyHidden"
+                  id="simple-controlled-empty"
+                  name="simple-controlled"
+                  type="radio"
+                  value=""
+                />
+                <span
+                  class="MuiRating-visuallyHidden"
+                >
+                  Empty
+                </span>
+              </label>
+            </span>
+            <div
+              class="id"
+            >
+              2
+            </div>
+            <div
+              class="book_name"
+            >
+              Book 2
+            </div>
+            <button
+              class="random_button"
+              type="button"
+            >
+              Start Random Rating
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="titlebox"
+      >
+        <div
+          class="titel"
+        >
+          My favorite books
+        </div>
+        <div
+          class="rowButtons"
+        >
+          <div
+            class="MuiBox-root css-1w97hrm"
+          >
+            <div
+              class="MuiFormControl-root MuiFormControl-fullWidth css-q8hpuo-MuiFormControl-root"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined css-1jy569b-MuiFormLabel-root-MuiInputLabel-root"
+                data-shrink="true"
+                id="sort-by-label"
+              >
+                Sort by
+              </label>
+              <div
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall  css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root"
+              >
+                <div
+                  aria-expanded="false"
+                  aria-haspopup="listbox"
+                  aria-labelledby="sort-by-label"
+                  class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                  role="button"
+                  tabindex="0"
+                >
+                  <span
+                    class="notranslate"
+                  >
+                    ​
+                  </span>
+                </div>
+                <input
+                  aria-hidden="true"
+                  aria-invalid="false"
+                  class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                  tabindex="-1"
+                  value="[object Object],[object Object]"
+                />
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                  data-testid="ArrowDropDownIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+                <fieldset
+                  aria-hidden="true"
+                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                >
+                  <legend
+                    class="css-14lo706"
+                  >
+                    <span>
+                      Sort by
+                    </span>
+                  </legend>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="books"
+      >
+        <div
+          class="book"
+        >
+          <img
+            alt="Book 1"
+            class="card"
+          />
+          <span
+            class="MuiRating-root MuiRating-sizeMedium css-iljtu2-MuiRating-root"
+            type="radio"
+          >
+            <label
+              class="css-dqr9h-MuiRating-label"
+              for=":r1:"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                  data-testid="StarBorderIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                1 Star
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyHidden"
+              id=":r1:"
+              name="simple-controlled"
+              type="radio"
+              value="1"
+            />
+            <label
+              class="css-dqr9h-MuiRating-label"
+              for=":r2:"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                  data-testid="StarBorderIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                2 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyHidden"
+              id=":r2:"
+              name="simple-controlled"
+              type="radio"
+              value="2"
+            />
+            <label
+              class="css-dqr9h-MuiRating-label"
+              for=":r3:"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                  data-testid="StarBorderIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                3 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyHidden"
+              id=":r3:"
+              name="simple-controlled"
+              type="radio"
+              value="3"
+            />
+            <label
+              class="css-dqr9h-MuiRating-label"
+              for=":r4:"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                  data-testid="StarBorderIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                4 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyHidden"
+              id=":r4:"
+              name="simple-controlled"
+              type="radio"
+              value="4"
+            />
+            <label
+              class="css-dqr9h-MuiRating-label"
+              for=":r5:"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                  data-testid="StarBorderIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                5 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyHidden"
+              id=":r5:"
+              name="simple-controlled"
+              type="radio"
+              value="5"
+            />
+            <label
+              class="MuiRating-label MuiRating-pristine css-dqr9h-MuiRating-label"
+            >
+              <input
+                class="MuiRating-visuallyHidden"
+                id="simple-controlled-empty"
+                name="simple-controlled"
+                type="radio"
+                value=""
+              />
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                Empty
+              </span>
+            </label>
+          </span>
+          <div
+            class="id"
+          >
+            1
+          </div>
+          <div
+            class="book_name"
+          >
+            Book 1
+          </div>
+          <button
+            class="random_button"
+            type="button"
+          >
+            Start Random Rating
+          </button>
+        </div>
+        <div
+          class="book"
+        >
+          <img
+            alt="Book 2"
+            class="card"
+          />
+          <span
+            class="MuiRating-root MuiRating-sizeMedium css-iljtu2-MuiRating-root"
+            type="radio"
+          >
+            <label
+              class="css-dqr9h-MuiRating-label"
+              for=":r7:"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                  data-testid="StarBorderIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                1 Star
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyHidden"
+              id=":r7:"
+              name="simple-controlled"
+              type="radio"
+              value="1"
+            />
+            <label
+              class="css-dqr9h-MuiRating-label"
+              for=":r8:"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                  data-testid="StarBorderIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                2 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyHidden"
+              id=":r8:"
+              name="simple-controlled"
+              type="radio"
+              value="2"
+            />
+            <label
+              class="css-dqr9h-MuiRating-label"
+              for=":r9:"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                  data-testid="StarBorderIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                3 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyHidden"
+              id=":r9:"
+              name="simple-controlled"
+              type="radio"
+              value="3"
+            />
+            <label
+              class="css-dqr9h-MuiRating-label"
+              for=":ra:"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                  data-testid="StarBorderIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                4 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyHidden"
+              id=":ra:"
+              name="simple-controlled"
+              type="radio"
+              value="4"
+            />
+            <label
+              class="css-dqr9h-MuiRating-label"
+              for=":rb:"
+            >
+              <span
+                class="MuiRating-icon MuiRating-iconEmpty css-1c99szj-MuiRating-icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                  data-testid="StarBorderIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                5 Stars
+              </span>
+            </label>
+            <input
+              class="MuiRating-visuallyHidden"
+              id=":rb:"
+              name="simple-controlled"
+              type="radio"
+              value="5"
+            />
+            <label
+              class="MuiRating-label MuiRating-pristine css-dqr9h-MuiRating-label"
+            >
+              <input
+                class="MuiRating-visuallyHidden"
+                id="simple-controlled-empty"
+                name="simple-controlled"
+                type="radio"
+                value=""
+              />
+              <span
+                class="MuiRating-visuallyHidden"
+              >
+                Empty
+              </span>
+            </label>
+          </span>
+          <div
+            class="id"
+          >
+            2
+          </div>
+          <div
+            class="book_name"
+          >
+            Book 2
+          </div>
+          <button
+            class="random_button"
+            type="button"
+          >
+            Start Random Rating
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
